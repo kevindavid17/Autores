@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.h3Description{
+  color:rgb(206, 47, 245);
+}
+.link{
+  color:blue;
+}
+.frmPeticion{
+  padding: 1rem;
+  border: 2px solid rgba(193, 190, 190, 0.811);
+  margin: 0 73rem 0 0;
+  text-align: left;
+
+}
+.btn{
+  background-color: #3f9af5;
+  color:white;
+  font-weight: bold;
+  padding: 0.5rem;
+  width: 6rem;
+  margin-right: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgba(193, 190, 190, 0.811);
+  font-size: large;
+}
+.btnseccion1{
+  margin-top: 0.6rem;
+}
+.general{
+  text-align: left;
+  margin-left: 3rem;
+}
+.general1{
+  text-align: left;
+  margin-left: 3rem;
+}
+.txtName{
+  width: 12rem;
+}
+.txtError{
+  color:red;
+  font-weight: bold;
+}
